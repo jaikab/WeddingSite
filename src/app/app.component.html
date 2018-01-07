@@ -1,0 +1,84 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<section class="backPic fullscreen container-fluid text-center">
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active navText" pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection"> Our Love Story </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#weddingDetailSection"> Wedding Details </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#gallerySection">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#weddingPartySection">Wedding Party</a>
+        </li>
+      </ul>
+  <div class="centerVertical">
+    <h1 class="mainText">
+      {{ pageTitle }}!
+    </h1>
+    <h4 class="mainSubtext">
+    "Forever And Always" 
+    </h4>
+    <button class="navButton" pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection">
+      Read Our Love Story
+    </button>
+  </div>  
+</section>
+<section class="fullscreen ourLoveStorySection" id="ourLoveStorySection">
+    <div class="col-sm-12 text-center">
+        <h1 class= "headerText page-header">Our Love Story</h1>
+    </div>
+    <div class="col-sm-6 text-center">
+        <p class="storyText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nisl tortor. Curabitur sit amet metus e
+             tortor tempor imperdiet. Ut mauris tortor, cursus nec bibendum fringilla, finibus in leo. Aliquam aliquet 
+             rat eu eros fermentum mattis. Suspendisse potenti. Integer nec turpis eget felis maximus cursus. Duis placer
+             t eget elit a scelerisque. Maecenas rutrum urna efficitur, mattis velit non, maximus arcu. Aenean tempus, qua
+             m a feugiat suscipit, ex sapien finibus metus, vel suscipit tellus ligula porta massa. Proin a dignissim sapi
+             en, ac ullamcorper turpis. Suspendisse dolor erat, varius nec risus id, aliquam dapibus leo. Etiam a pellentes
+             ue sem. Suspendisse quis massa dapibus, hendrerit lorem at, sollicitudin quam. Mauris convallis augue felis, qui
+              auctor urna laoreet eget. Nam congue nec justo a semper.
+          </p>
+    </div>
+   <div class="col-sm-6 text-center">
+     <img class="loveStoryPic" src="./assets/loveStoryPic.jpg" alt="">
+   </div>
+
+</section>
+<section class="fullscreen" id="weddingDetailSection">
+    <div class= "center"> 
+        <h1 >Registry List</h1>
+     <ul class="removeBullets noPadding">
+        <li>
+         <h2><a target="_blank" rel="noopener" href="https://www.potterybarn.com/registry/8wjd9j89sp/registry-list.html">Pottery Barn</a></h2>
+        </li>
+        <li>
+          <h2><a target="_blank" rel="noopener" href="https://www.macys.com/wgl/registry/guest/6862205">Macys</a></h2>
+        </li>
+        <li>
+          <h2><a target="_blank" rel="noopener" href="https://www.target.com/gift-registry/gift/Hunger-wedding">Target</a></h2>
+        </li>
+      </ul>
+      </div>
+    
+      <hr>
+      <div class="center">
+        <count-down [text]="text" units="Days | Hours | Minutes | Seconds" end="September 08, 2018"></count-down>
+      </div>
+</section>
+<section class="fullscreen" id="gallerySection">
+    <div class="col-sm-12 text-center">
+        <h1 class= "page-header">Gallery</h1>
+    </div>
+</section>  
+<section class="fullscreen" id="weddingPartySection">
+    <div class="col-sm-12 text-center">
+        <h1 class= "page-header">Wedding Party</h1>
+    </div>
+</section>  
+  
+
+

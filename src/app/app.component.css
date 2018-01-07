@@ -1,0 +1,70 @@
+.center {
+    text-align: center;
+}
+.noPadding {
+    padding: 0;
+}
+.removeBullets {
+    list-style-type: none;
+}
+.backPic {
+    background-image: url("/assets/backPic.jpg");
+    background-size: cover;
+}
+.mainText {
+    font-size: 56px;
+    color: rgb(75, 2, 2);
+}
+.fullscreen {
+    min-height: 100vh;
+}
+.centerVertical {
+padding-top: 175px;
+}
+.ourLoveStorySection {
+    background-color:  rgb(75, 2, 2);
+    color: white;
+    text-decoration: none;
+}
+.navButton {
+    background-color:  rgb(75, 2, 2);
+border-radius: 30px;
+padding: 15px;
+color: white;
+border: none;
+font-family: 'Courgette', cursive;
+
+}
+.pageHeader {
+    min-width: 100%;
+    display: flex;
+
+}
+.headerText {
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+}
+
+.storyText {
+    font-family: 'Courgette', cursive;
+    padding:10px;
+    color:white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.loveStoryPic {
+    width: 500px;
+    margin-top: 75px;
+    border-radius: 20px;
+}
+.mainSubtext {
+    font-size: 36px;
+    color: rgba(75, 2, 2, .7);
+    font-family: 'Courgette', cursive;
+
+}
+.navText {
+    color: rgba(128, 128, 128, 0.705);
+    font-family: 'Courgette', cursive;
+font-size: 16px;
+}
