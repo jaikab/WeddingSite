@@ -6,7 +6,10 @@
           <a class="nav-link active navText" pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection"> Our Love Story </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#weddingDetailSection"> Wedding Details </a>
+            <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#detailsSection"> Wedding Details </a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#registrySection"> Registry </a>
         </li>
         <li class="nav-item">
           <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#gallerySection">Gallery</a>
@@ -17,10 +20,10 @@
       </ul>
   <div class="centerVertical">
     <h1 class="mainText">
-      {{ pageTitle }}!
+      {{ pageTitle }}
     </h1>
     <h4 class="mainSubtext">
-    "Forever And Always" 
+    Forever And Always 
     </h4>
     <button class="navButton" pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection">
       Read Our Love Story
@@ -48,26 +51,70 @@
    </div>
 
 </section>
-<section class="fullscreen" id="weddingDetailSection">
-    <div class= "center"> 
-        <h1 >Registry List</h1>
-     <ul class="removeBullets noPadding">
-        <li>
-         <h2><a target="_blank" rel="noopener" href="https://www.potterybarn.com/registry/8wjd9j89sp/registry-list.html">Pottery Barn</a></h2>
-        </li>
-        <li>
-          <h2><a target="_blank" rel="noopener" href="https://www.macys.com/wgl/registry/guest/6862205">Macys</a></h2>
-        </li>
-        <li>
-          <h2><a target="_blank" rel="noopener" href="https://www.target.com/gift-registry/gift/Hunger-wedding">Target</a></h2>
-        </li>
-      </ul>
-      </div>
+<section class="fullscreen detailsSection" id="detailsSection">
+  <div class="col-sm-12">
+    <h1 class="page-header text-center">
+      Wedding Details
+    </h1>
+  </div>
+  <div class="col-sm-6 text-center">
+    <h2>
+      Loaction
+    </h2>
+    <h4 class="nonCursive">
+      The Cantrell Party Barn
+    </h4>
+    <h4 class="nonCursive">
+      Dos Palos, CA. 
+    </h4>
+    <br>
+    <h2>
+      Date
+    </h2>
+    <h4 class="nonCursive">
+      September, 8th 2018
+    </h4>
+    <br>
+    <h2>
+      Time
+    </h2>
+    <h4 class="nonCursive">
+      Ceremony: Five P.M.
+    </h4>
+    <h4 class="nonCursive">
+      Reception will follow
+    </h4>
+  </div>
+  <div class="col-sm-6 text-center">
+    <h3>
+      This will be the paragraph or quote for the wedding
+    </h3>
+  </div>
+  
+  <div class="text-center col-sm-12 countdownTimer">
+    <count-down [text]="text" units="Days | Hours | Minutes | Seconds" end="September 08, 2018"></count-down>
+</div>
+</section>
+<section class="fullscreen registrySection" id="registrySection">
+    <div class="row">
+      <div class= "text-center col-sm-12 registryList"> 
+        <h1 class="page-header">Registry List</h1>
     
-      <hr>
-      <div class="center">
-        <count-down [text]="text" units="Days | Hours | Minutes | Seconds" end="September 08, 2018"></count-down>
       </div>
+      <div class="col-sm-12 text-center">
+
+        <div class="col-sm-4">
+          <a href="https://www.potterybarn.com/registry/8wjd9j89sp/registry-list.html"><img src="./assets/pottery-barn.png" class="registryImg"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="https://www.macys.com/wgl/registry/guest/6862205"><img src="./assets/macys.png"   class="registryImg"></a>
+        </div>
+        <div class="col-sm-4">
+            <a href="https://www.target.com/gift-registry/gift/Hunger-wedding"><img src="./assets/target.png" class="registryImg"></a>
+        </div>
+      </div>
+
+    </div>
 </section>
 <section class="fullscreen" id="gallerySection">
     <div class="col-sm-12 text-center">
@@ -80,5 +127,10 @@
     </div>
 </section>  
   
-
+<div class="col-sm-6 text-center embedDiv">
+  <iframe src="https://player.vimeo.com/video/184516969" width="380" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<div class="col-sm-6 text-center embedDiv">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.9563512585751!2d-120.6092197708105!3d36.97322937017558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8093dc72e34a52d3%3A0x27aa369a1a3362d6!2s16419+Bryant+Ave%2C+Dos+Palos%2C+CA+93620!5e1!3m2!1sen!2sus!4v1515387037071" width="380" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 

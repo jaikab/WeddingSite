@@ -68,3 +68,29 @@ font-family: 'Courgette', cursive;
     font-family: 'Courgette', cursive;
 font-size: 16px;
 }
+.countdownTimer {
+    padding-top: 30px;
+}
+.registryList {
+    padding-top: 10px;
+}
+.registrySection {
+    background-color: rgb(255, 211, 211)
+}
+.detailsSection {
+    background-color: rgb(221, 221, 221);
+}
+.registryImg {
+    filter: grayscale(100%);
+    max-width: 300px;
+    padding-top: 30px;
+}
+.embedDiv {
+ margin-bottom: 40px !important;
+}
+.dateTime {
+    
+}
+.nonCursive {
+    font-family: 'Courgette', cursive;
+}
