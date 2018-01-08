@@ -86,11 +86,17 @@ font-size: 16px;
     padding-top: 30px;
 }
 .embedDiv {
- margin-bottom: 40px !important;
+ margin-bottom: 30px !important;
 }
-.dateTime {
-    
+.embedMargin {margin-top: 13px;
 }
 .nonCursive {
     font-family: 'Courgette', cursive;
+}
+.instagramPic {
+    height: 50px;
+    width: 50px;
+}
+.textUnderline {
+    text-decoration: underline;
 }
