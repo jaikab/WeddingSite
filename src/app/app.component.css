@@ -105,9 +105,24 @@ font-size: 16px;
     width: 320px;
 }
 .gallerySection {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(221, 208, 208);
 }
 .carouselVertical{
-    height: 450px;
-    width:   50%;
+    height: 500px;
+    width:   58%;
+    border: 5px solid black;
+}
+.carouselHorizontal {
+    height: 500px;
+    width:  25%;
+    border: 5px solid black;
+}
+.engagementGallery {
+    background-image: url(/assets/finalEGallery.jpg);
+    background-size: cover; 
+}
+.gallerySectionPics {
+    border-width:5px;  
+    border-style:outset;
+    border-color: beige;
 }
