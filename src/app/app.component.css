@@ -67,6 +67,7 @@ font-family: 'Courgette', cursive;
     color: rgba(128, 128, 128, 0.705);
     font-family: 'Courgette', cursive;
 font-size: 16px;
+text-transform: uppercase;
 }
 .countdownTimer {
     padding-top: 30px;
@@ -126,26 +127,10 @@ font-size: 16px;
     border-style:outset;
     border-color: rgba(32, 32, 20, 0.514);
 }
-.back-icon {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-  }
-  .back-icon__row {
-    height: 10px;
-    width: 30px;
-    display: flex;
-  }
-  .back-icon__elem {
-    height: 8px;
-    width: 8px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    background: rgb(12, 12, 12);
-    border-radius: 38%;
-  }
+
   .pastGallery {
       background-image: url(/assets/pastBackground1.jpg);
       background-size: cover;
 
   }
+  
