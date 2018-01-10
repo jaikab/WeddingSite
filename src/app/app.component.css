@@ -101,8 +101,8 @@ font-size: 16px;
     text-decoration: underline;
 }
 .engagementMainPic {
-    height: 450px;
-    width: 320px;
+    height: 430px;
+    width: 300px;
 }
 .gallerySection {
     background-color: rgb(221, 208, 208);
@@ -122,7 +122,30 @@ font-size: 16px;
     background-size: cover; 
 }
 .gallerySectionPics {
-    border-width:5px;  
+    border-width:6px;  
     border-style:outset;
-    border-color: beige;
+    border-color: rgba(32, 32, 20, 0.514);
 }
+.back-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+  }
+  .back-icon__row {
+    height: 10px;
+    width: 30px;
+    display: flex;
+  }
+  .back-icon__elem {
+    height: 8px;
+    width: 8px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background: rgb(12, 12, 12);
+    border-radius: 38%;
+  }
+  .pastGallery {
+      background-image: url(/assets/pastBackground1.jpg);
+      background-size: cover;
+
+  }
