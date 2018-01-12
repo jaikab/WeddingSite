@@ -22,8 +22,8 @@
 padding-top: 175px;
 }
 .ourLoveStorySection {
-    background-color:  rgb(75, 2, 2);
-    color: white;
+    background-image: url("/assets/backStory1.jpg");
+    background-size: cover;
     text-decoration: none;
 }
 .navButton {
@@ -48,7 +48,7 @@ font-family: 'Courgette', cursive;
 .storyText {
     font-family: 'Courgette', cursive;
     padding:10px;
-    color:white;
+    color: black;
     font-size: 20px;
     margin-top: 50px;
 }
@@ -64,10 +64,11 @@ font-family: 'Courgette', cursive;
 
 }
 .navText {
-    color: rgba(128, 128, 128, 0.705);
-    font-family: 'Courgette', cursive;
-font-size: 16px;
-text-transform: uppercase;
+color: rgba(0, 0, 0, 0.705);
+font-family: 'Courgette', cursive;
+font-size: 15px;
+text-transform:;
+font-weight: 45px;
 }
 .countdownTimer {
     padding-top: 30px;
@@ -125,7 +126,8 @@ text-transform: uppercase;
 .gallerySectionPics {
     border-width:6px;  
     border-style:outset;
-    border-color: rgba(32, 32, 20, 0.514);
+    border-color: rgba(0, 0, 0, 0.514);
+    border-radius: 50%;
 }
 
   .pastGallery {
@@ -133,4 +135,13 @@ text-transform: uppercase;
       background-size: cover;
 
   }
-  
+  .navBarDesign {
+      border: solid;
+      border-color: transparent;
+      margin-right: 8px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border-radius: 50%;
+      background-image: url("/assets/eGallery.jpg");
+      background-size: cover;
+  }

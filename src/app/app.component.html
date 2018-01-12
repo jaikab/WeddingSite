@@ -1,24 +1,24 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <section class="backPic fullscreen container-fluid text-center" id="home">
-   <ul class="nav navPosition fixed-top">
+   <ul class="nav navPosition fixed-top" style="padding-top: 3px">
        <li class="nav-item">
-          <a class="nav-link active navText" pageScroll [pageScrollEasing]="smoothEase" href="#home"> Home </a>
+          <a class="nav-link active navText navBarDesign"  pageScroll [pageScrollEasing]="smoothEase" href="#home"> Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active navText" pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection"> Our Love Story </a>
+          <a class="nav-link active navText navBarDesign"  pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection"> Our Love Story </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link  navText" pageScroll [pageScrollEasing]="smoothEase" href="#detailsSection"> Wedding Details </a>
+            <a class="nav-link  navText navBarDesign" pageScroll [pageScrollEasing]="smoothEase" href="#detailsSection"> Wedding Details </a>
           </li>
         <li class="nav-item">
-          <a class="nav-link  navText" pageScroll [pageScrollEasing]="smoothEase" href="#registrySection"> Registry </a>
+         <a class="nav-link  navText navBarDesign"  pageScroll [pageScrollEasing]="smoothEase" href="#registrySection"> Registry </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  navText" pageScroll [pageScrollEasing]="smoothEase" href="#gallerySection">Galleries</a>
+          <a class="nav-link  navText navBarDesign"  pageScroll [pageScrollEasing]="smoothEase" href="#gallerySection">Galleries</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navText" pageScroll [pageScrollEasing]="smoothEase" href="#weddingPartySection">Wedding Party</a>
+          <a class="nav-link navText navBarDesign" pageScroll [pageScrollEasing]="smoothEase" href="#weddingPartySection">Wedding Party</a>
         </li>
       </ul>
   <div class="centerVertical">
@@ -39,14 +39,16 @@
     </div>
     <div class="col-sm-6 text-center">
         <p class="storyText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nisl tortor. Curabitur sit amet metus e
-             tortor tempor imperdiet. Ut mauris tortor, cursus nec bibendum fringilla, finibus in leo. Aliquam aliquet 
-             rat eu eros fermentum mattis. Suspendisse potenti. Integer nec turpis eget felis maximus cursus. Duis placer
-             t eget elit a scelerisque. Maecenas rutrum urna efficitur, mattis velit non, maximus arcu. Aenean tempus, qua
-             m a feugiat suscipit, ex sapien finibus metus, vel suscipit tellus ligula porta massa. Proin a dignissim sapi
-             en, ac ullamcorper turpis. Suspendisse dolor erat, varius nec risus id, aliquam dapibus leo. Etiam a pellentes
-             ue sem. Suspendisse quis massa dapibus, hendrerit lorem at, sollicitudin quam. Mauris convallis augue felis, qui
-              auctor urna laoreet eget. Nam congue nec justo a semper.
+            It all began in High School, on a warm September night, where they met at a back to school dance.
+             'Twas love at first sight! Shortly after, Jaikab asked Savannah to the Homecoming Dance, and shortly after
+              that they became a couple. From then on it was Jaikab
+            and Savannah 24/7, they were inseparable. Their love grew stronger with every second that went by, leading to even
+            more adventures than imaginable. Their favorite memory together the night they first declared their love for one 
+            another. Their saddest memory was when their pet turkeys were eaten by a dog. Being together
+            caused time to fly by, they enjoyed multiple trips together to places like Disneyland, Mexico, Las Vegas and
+             the mountains. On October, 15th, 2016 Jaikab asked Savannah to marry him, and she immediately said yes. This led to where
+              they are now, two young lovers preparing to join together through all of lives obstacles that stand in their way.
+
           </p>
     </div>
    <div class="col-sm-6 text-center">
@@ -139,15 +141,15 @@
         <h1 class= "page-header">Galleries</h1>
     </div>
     <div class="col-sm-4 text-center">
-        <h2 class="textUnderline">Past</h2>
+        <h2 class="textUnderline" data-toggle="tooltip" title="Click the picture to view a gallery from our past">Past</h2>
         <a href="#pastPictures"><img src="./assets/engagementMainPic.jpg" class="engagementMainPic gallerySectionPics"></a>
       </div>
     <div class="col-sm-4 text-center">
-      <h2 class="textUnderline">Present</h2>
+      <h2 class="textUnderline"  data-toggle="tooltip" title="Click the picture to view a gallery from the present">Present</h2>
       <a href="#engagementPictures"><img src="./assets/Ev17.jpg" class="engagementMainPic gallerySectionPics"></a>
     </div>
     <div class="col-sm-4 text-center">
-      <h2 class="textUnderline">Future</h2>
+      <h2 class="textUnderline" data-toggle="tooltip" title="Pictures for the future will come after the wedding">Future</h2>
       <img class="engagementMainPic gallerySectionPics" src="./assets/comingSoon.jpg" alt="">
     </div>
    
@@ -285,6 +287,30 @@
       </div>
       <div class="carousel-item text-center">
         <img class="carouselVertical" src="./assets/P3.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselHorizontal" src="./assets/Ppic1.JPG" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselVertical" src="./assets/Ppic2.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselVertical" src="./assets/Ppic3.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselHorizontal" src="./assets/Ppic4.JPG" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselHorizontal" src="./assets/Ppic5.JPG" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselHorizontal" src="./assets/Ppic6.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselVertical" src="./assets/Ppic7.JPG" alt="Third slide">
+      </div>
+      <div class="carousel-item text-center">
+        <img class="carouselHorizontal" src="./assets/Ppic8.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
