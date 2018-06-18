@@ -85,7 +85,11 @@ font-weight: 45px;
 .registryImg {
     filter: grayscale(100%);
     max-width: 300px;
-    padding-top: 30px;
+    padding-top: ;
+}
+.targetPicMargin {
+    margin-top: -105px
+    
 }
 .embedDiv {
  margin-bottom: 30px !important;
@@ -101,6 +105,7 @@ font-weight: 45px;
 }
 .textUnderline {
     text-decoration: underline;
+    color: rgb(32, 32, 32);
 }
 .engagementMainPic {
     height: 430px;
@@ -153,4 +158,22 @@ background: none;
 border: none;
 font-family: 'Courgette', cursive;
 text-decoration-color: black;
+}
+.homeButtonIcon {
+    height: 50%;
+    width: 50%
+}
+.menuSize {
+    width: 10%;
+    background-color: transparent;
+    border: none;
+}
+.dropdownMenu {
+    background-color:beige;
+    font-family: 'Courgette', cursive;
+    
+}
+.responsiveImage {
+    width: 100%;
+    height: auto;
 }

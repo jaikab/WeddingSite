@@ -4,14 +4,14 @@
 <section class="backPic fullscreen container-fluid " id="home">
   <div class="dropdown fixed-top align-ledt menuSize">
     <button class="btn btn-secondary dropdown-toggle menuSize fixed-top menuStyle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <a href="#home"><img class="homeButtonIcon" src="/assets/menu.png" alt=""></a>
+      <a><img class="homeButtonIcon" src="/assets/menu.png" alt=""></a>
     </button>
-    <div class="dropdown-menu fixed-top menuText" aria-labelledby="dropdownMenu2">
-      <button class="dropdown-item" type="button"><a href="#home">Home</a></button>
-      <button class="dropdown-item" type="button"><a href="#ourLoveStorySection">Our Love Story</a></button>
-      <button class="dropdown-item" type="button"><a href="#detailsSection">Details</a></button>
-      <button class="dropdown-item " type="button"><a href="#registrySection">Gift Registry</a></button>
-      <button class="dropdown-item" type="button"><a href="#gallerySection">Gallery</a></button>
+    <div class="dropdown-menu dropdownMenu fixed-top menuText"  aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item"  type="button"><a pageScroll [pageScrollEasing]="smoothEase" href="#home">Home</a></button>
+      <button class="dropdown-item" type="button"><a pageScroll [pageScrollEasing]="smoothEase" href="#ourLoveStorySection">Our Love Story</a></button>
+      <button class="dropdown-item" type="button"><a pageScroll [pageScrollEasing]="smoothEase" href="#detailsSection">Details</a></button>
+      <button class="dropdown-item" type="button"><a pageScroll [pageScrollEasing]="smoothEase" href="#registrySection">Gift Registry</a></button>
+      <button class="dropdown-item"  type="button"><a pageScroll [pageScrollEasing]="smoothEase" href="#gallerySection">Gallery</a></button>
     </div>
   </div>
   <div class="centerVertical text-center">
@@ -116,16 +116,16 @@
         <h1 class="page-header">Registry List</h1>
       </div>
       <div class="col-sm-12 text-center">
-        <div class="col-sm-3">
+        <div class="col-lg-6">
           <a href="https://www.potterybarn.com/registry/8wjd9j89sp/registry-list.html"><img src="./assets/pottery-barn.png" class="registryImg"></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-6">
             <a href="https://www.macys.com/wgl/registry/guest/6862205"><img src="./assets/macys.png"   class="registryImg"></a>
         </div>
-        <div class="col-sm-3">
-            <a href="https://www.target.com/gift-registry/gift/Hunger-wedding"><img src="./assets/target.png" class="registryImg"></a>
+        <div class="col-lg-6 ">
+            <a href="https://www.target.com/gift-registry/gift/Hunger-wedding"><img src="./assets/target.png" class="targetPicMargin registryImg"></a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-6 ">
           <a href="https://www.myregistry.com/wedding-registry/Jaikab-And-Savannah-Hunger-Dos-Palos-CA/1567707"><img src="./assets/pier1.png" class="registryImg"></a>
       </div>
       </div>
@@ -141,7 +141,7 @@
         <a href="#pastPictures"><img src="./assets/engagementMainPic.jpg" class="engagementMainPic hover-shadow gallerySectionPics"></a>
       </div>
     <div class="col-sm-4 text-center">
-      <button type="button " class="btn modalButtons btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Present</button>
+      <button type="button" class="btn modalButtons textUnderline btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"><h2 class="textUnderline">Present</h2></button>
       <div>
         <img src="./assets/Ev3.jpg" class="engagementMainPic hover-shadow gallerySectionPics">
       </div>
@@ -174,7 +174,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="21"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="22"></li>
               </ol>
-              <div class="carousel-inner" style="background-color:black; margin-top:12%">
+              <div class="carousel-inner " style="background-color:black; margin-top:12%">
                 <div class="carousel-item active">
                   <img class="carouselVertical" src="./assets/E1.jpg" alt="First slide">
                 </div>
@@ -264,12 +264,7 @@
     </div>
   
  </section> 
- <section class="fullscreen" id="weddingPartySection">
-   
-    <div class="col-sm-12 text-center">
-        <h1 class= "page-header">Wedding Party</h1>
-    </div>
-  </section>
+ 
  <section>
   
  <!-- Modal -->
