@@ -56,6 +56,7 @@ font-family: 'Courgette', cursive;
     width: 500px;
     margin-top: 75px;
     border-radius: 20px;
+    max-width: 100%;
 }
 .mainSubtext {
     font-size: 36px;
